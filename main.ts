@@ -1,12 +1,12 @@
-// A working best-game-01 entry (Node 22, standard library only): the game is this directory's
+// VOIDLIGHT — entry best-game-01 (Node 22, standard library only): the game is this directory's
 // game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
 // modules, no library and no network request), and the program hands it in. It copies game/ and
 // screenshots/ from beside this file to /output and writes /output/dossier.json, the summary the
-// judge reads, with the vendored make.fun library. A starting point, not a winner: Block Dodger, a
-// plain 2D canvas game where a paddle dodges falling blocks and catches coins, with a title screen,
-// score, lives and levels, game over and restart, flat colours and no sound. Build your own game
-// (any genre, any library you vendor under game/, or none), put your 3 or 4 PNG or JPEG screenshots
-// in screenshots/ (the first by name is the cover) and run it.
+// judge reads, with the vendored make.fun library. VOIDLIGHT is a neon arena survival shooter:
+// WASD/arrows to move, mouse to aim, click/Space to fire, E/right-click for a nova bomb, 5 enemy
+// types, combo multiplier, 4 power-ups, 3 lives, synthesized WebAudio SFX and music. Build your
+// own game (any genre, any library you vendor under game/, or none), put your 3 or 4 PNG or JPEG
+// screenshots in screenshots/ (the first by name is the cover) and run it.
 //
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
